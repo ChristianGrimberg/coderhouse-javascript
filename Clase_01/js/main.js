@@ -24,3 +24,24 @@ console.log(esEstudiante); // Imprime el valor de la variable esEstudiante
 
 const PI = 3.1416; // Constante para el valor de pi que no se puede reasignar
 console.log(PI); // Imprime el valor de la constante PI
+
+// Operadores: vamos a ver el uso de operadores aritméticos y de asignación
+
+console.log(5 + 3); // Suma: 8
+console.log(10 - 4); // Resta: 6
+console.log(7 * 2); // Multiplicación: 14
+console.log(20 / 5); // División: 4
+console.log(10 % 3); // Módulo: 1 (resto de la división)
+
+let a = 5;
+let b = 3;
+
+console.log(a + b); // Suma: 8
+console.log(a - b); // Resta: 2
+console.log(a * b); // Multiplicación: 15
+console.log(a / b); // División: 1.6666666666666667
+console.log(a % b); // Módulo: 2 (resto de la división)
+
+//alert: vamos a ver el uso de alert() para mostrar mensajes al usuario
+
+alert("¡Hola, bienvenido al curso de JavaScript!"); // Muestra un mensaje de alerta al usuario
