@@ -56,4 +56,5 @@ let numero1 = parseFloat(prompt("Ingresa el primer número:")); // Solicita el p
 let numero2 = parseFloat(prompt("Ingresa el segundo número:")); // Solicita el segundo número y lo convierte a float
 
 let suma = numero1 + numero2; // Suma los dos números
-console.log("La suma de " + numero1 + " y " + numero2 + " es: " + suma); // Imprime el resultado de la suma
+let mensajeSuma = "La suma de " + numero1 + " y " + numero2 + " es: " + suma; // Crea un mensaje con el resultado de la suma
+console.log(mensajeSuma); // Imprime el resultado de la suma
