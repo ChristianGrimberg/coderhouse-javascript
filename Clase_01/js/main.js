@@ -58,3 +58,64 @@ let numero2 = parseFloat(prompt("Ingresa el segundo número:")); // Solicita el 
 let suma = numero1 + numero2; // Suma los dos números
 let mensajeSuma = "La suma de " + numero1 + " y " + numero2 + " es: " + suma; // Crea un mensaje con el resultado de la suma
 console.log(mensajeSuma); // Imprime el resultado de la suma
+
+// confirm: vamos a ver el uso de confirm() para solicitar una confirmación al usuario
+
+let respuesta = confirm("¿Deseas continuar?"); // Solicita al usuario una confirmación
+if (respuesta) {
+    console.log("El usuario desea continuar."); // Si el usuario confirma, se muestra este mensaje
+} else {
+    console.log("El usuario no desea continuar."); // Si el usuario cancela, se muestra este mensaje
+}
+
+// Valores falsy: vamos a ver los valores que se consideran falsy en JavaScript
+
+// undefined: vamos a ver el uso de undefined para representar variables sin valor asignado
+
+let variableSinValor; // Variable declarada pero sin valor asignado
+console.log(variableSinValor); // Imprime undefined, ya que la variable no tiene un valor asignado
+
+// null: vamos a ver el uso de null para representar la ausencia de valor
+
+let variableNula = null; // Variable asignada con null para indicar que no tiene valor
+console.log(variableNula); // Imprime null, indicando que la variable no tiene un valor asignado
+
+// NaN: vamos a ver el uso de NaN para representar un valor numérico no válido
+
+let resultadoInvalido = 0 / 0; // División de cero entre cero, lo que resulta en NaN
+console.log(resultadoInvalido); // Imprime NaN, indicando que el resultado no es un número válido
+
+// Infinity: vamos a ver el uso de Infinity para representar un valor numérico infinito
+
+let resultadoInfinito = 1 / 0; // División de uno entre cero, lo que resulta en Infinity
+console.log(resultadoInfinito); // Imprime Infinity, indicando que el resultado es un valor numérico infinito
+
+// Operadores lógicos: vamos a ver el uso de operadores lógicos para combinar condiciones
+
+// Igualdad: vamos a ver el uso de == y === para comparar valores
+
+let x = 5;
+let y = "5";
+
+console.log(x == y); // true, porque == compara solo el valor (coerción de tipos)
+console.log(x === y); // false, porque === compara el valor y el tipo (sin coerción de tipos)
+
+// Desigualdad: vamos a ver el uso de != y !== para comparar valores
+
+console.log(x != y); // false, porque != compara solo el valor (coerción de tipos)
+console.log(x !== y); // true, porque !== compara el valor y el tipo (sin coerción de tipos)
+
+// Operadores lógicos AND (&&) y OR (||)
+
+let a1 = true;
+let b1 = false;
+
+console.log(a1 && b1); // false, porque ambos deben ser verdaderos para que el resultado sea verdadero
+console.log(a1 || b1); // true, porque al menos uno debe ser verdadero para que el resultado sea verdadero
+
+// Operadores de comparación: vamos a ver el uso de operadores de comparación para comparar valores
+
+console.log(5 > 3); // true, porque 5 es mayor que 3
+console.log(5 < 3); // false, porque 5 no es menor que 3
+console.log(5 >= 5); // true, porque 5 es mayor o igual a 5
+console.log(5 <= 4); // false, porque 5 no es menor o igual a 4
