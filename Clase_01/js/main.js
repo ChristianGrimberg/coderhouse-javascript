@@ -50,3 +50,10 @@ alert("¡Hola, bienvenido al curso de JavaScript!"); // Muestra un mensaje de al
 
 let nombreUsuario = prompt("¿Cuál es tu nombre?"); // Solicita al usuario que ingrese su nombre
 console.log("Hola, " + nombreUsuario + "!"); // Imprime un saludo personalizado con el nombre del usuario
+
+// Solicita al usuario que ingrese dos números y los suma
+let numero1 = parseFloat(prompt("Ingresa el primer número:")); // Solicita el primer número y lo convierte a float
+let numero2 = parseFloat(prompt("Ingresa el segundo número:")); // Solicita el segundo número y lo convierte a float
+
+let suma = numero1 + numero2; // Suma los dos números
+console.log("La suma de " + numero1 + " y " + numero2 + " es: " + suma); // Imprime el resultado de la suma
