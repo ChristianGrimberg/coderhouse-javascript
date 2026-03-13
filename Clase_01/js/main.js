@@ -21,3 +21,6 @@ let esEstudiante = true; // variable de tipo boolean
 console.log(nombre); // Imprime el valor de la variable nombre
 console.log(edad); // Imprime el valor de la variable edad
 console.log(esEstudiante); // Imprime el valor de la variable esEstudiante
+
+const PI = 3.1416; // Constante para el valor de pi que no se puede reasignar
+console.log(PI); // Imprime el valor de la constante PI
