@@ -4,9 +4,10 @@ Este repositorio contiene los ejercicios y ejemplos del curso de Javascript de C
 
 ## Estructura del Proyecto
 
-El proyecto está organizado por clases:
+El proyecto está organizado por clases, módulos y ejer:
 
-- **[Clase_01](Clase_01/)**: Introducción a JavaScript, consola, variables, tipos de datos (constantes), operadores básicos y funciones de interacción (`alert()`, `prompt()`).
+- **[Clase_01](Clase_01/)**: Introducción a JavaScript, consola, variables, tipos de datos, operadores, funciones de interacción (`alert()`, `prompt()`, `confirm()`) y estructuras de control básicas.
+  - **[Módulo 01 - Configuración y Consola](docs/Modulo_01/01.md)**: Guía sobre herramientas esenciales, DevTools y configuración del entorno.
 
 ## Cómo ejecutar
 
