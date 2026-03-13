@@ -45,3 +45,8 @@ console.log(a % b); // Módulo: 2 (resto de la división)
 //alert: vamos a ver el uso de alert() para mostrar mensajes al usuario
 
 alert("¡Hola, bienvenido al curso de JavaScript!"); // Muestra un mensaje de alerta al usuario
+
+// prompt: vamos a ver el uso de prompt() para solicitar datos al usuario
+
+let nombreUsuario = prompt("¿Cuál es tu nombre?"); // Solicita al usuario que ingrese su nombre
+console.log("Hola, " + nombreUsuario + "!"); // Imprime un saludo personalizado con el nombre del usuario
