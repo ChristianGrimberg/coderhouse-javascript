@@ -6,7 +6,7 @@ Este repositorio contiene los ejercicios y ejemplos del curso de Javascript de C
 
 El proyecto está organizado por clases:
 
-- **[Clase_01](Clase_01/)**: Introducción a Javascript, consola, variables, tipos de datos (incluyendo constantes) y operadores básicos.
+- **[Clase_01](Clase_01/)**: Introducción a JavaScript, consola, variables, tipos de datos (constantes), operadores básicos y funciones de interacción (`alert()`, `prompt()`).
 
 ## Cómo ejecutar
 
